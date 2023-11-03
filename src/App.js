@@ -1,7 +1,11 @@
+import React from "react";
+import Landing from "./pages/landing/Landing";
+// import styled from "styled-components";
+
 function App() {
   return (
     <div className="App">
-      <h2>SSIB</h2>
+      <Landing />
     </div>
   );
 }
