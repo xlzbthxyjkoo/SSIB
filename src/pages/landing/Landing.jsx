@@ -12,7 +12,7 @@ const Container = styled.div`
   background-size: contain;
   background-position: center center; // 가로 및 세로 중앙에 배치
   background-repeat: no-repeat;
-  //   height: 100vh;
+  // height: 100vh;
   display: flex;
   justify-content: center;
 `;
@@ -31,7 +31,7 @@ function Landing() {
   return (
     <Container>
       <ButtonImg
-        src="./assets/landing/button.svg"
+        src={`${process.env.PUBLIC_URL}/assets/landing/button.svg`}
         onClick={() => {
           navigate("./survey");
         }}
