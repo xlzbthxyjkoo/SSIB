@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "question": "오늘 하루는 어땠어?",
+    "img": "/assets/main/q1.svg",
+    "answers": [
+      {
+        "type": "1",
+        "content": "좋았어!"
+      },
+      {
+        "type": "2",
+        "content": "오늘은 평범한 하루였어"
+      },
+      {
+        "type": "3",
+        "content": "힘들었어"
+      }
+    ],
+    "progress": "/assets/bar/1.svg"
+  },
+  {
+    "id": 2,
+    "question": "오늘 날씨는 어때?",
+    "img": "/assets/main/q2.svg",
+    "answers": [
+      {
+        "type": "1",
+        "content": "더워"
+      },
+      {
+        "type": "2",
+        "content": "선선해"
+      },
+      {
+        "type": "3",
+        "content": "추워"
+      },
+      {
+        "type": "4",
+        "content": "비와"
+      }
+    ],
+    "progress": "/assets/bar/2.svg"
+  },
+  {
+    "id": 3,
+    "question": "밥 먹을 시간은 충분해?",
+    "img": "/assets/main/q3.svg",
+    "answers": [
+      {
+        "type": "1",
+        "content": "바빠"
+      },
+      {
+        "type": "2",
+        "content": "그냥 그래"
+      },
+      {
+        "type": "3",
+        "content": "널널해"
+      }
+    ],
+    "progress": "/assets/bar/3.svg"
+  },
+  {
+    "id": 4,
+    "question": "오늘 얼마정도 flex 가능해?",
+    "img": "/assets/main/q4.svg",
+    "answers": [
+      {
+        "type": "1",
+        "content": "1만원 이하"
+      },
+      {
+        "type": "2",
+        "content": "1~2만원 정도"
+      },
+      {
+        "type": "3",
+        "content": "3만원 이상"
+      }
+    ],
+    "progress": "/assets/bar/4.svg"
+  },
+  {
+    "id": 5,
+    "question": "국물있는 음식이 땡겨?",
+    "img": "/assets/main/q5.svg",
+    "answers": [
+      {
+        "type": "1",
+        "content": "응!"
+      },
+      {
+        "type": "2",
+        "content": "그냥 그래"
+      },
+      {
+        "type": "3",
+        "content": "아니 별로"
+      }
+    ],
+    "progress": "/assets/bar/5.svg"
+  },
+  {
+    "id": 6,
+    "question": "매운거 어느정도 참을 수 있어?",
+    "img": "/assets/main/q6.svg",
+    "answers": [
+      {
+        "type": "1",
+        "content": "씁(맵찔이)"
+      },
+      {
+        "type": "2",
+        "content": "쓰으으읍(평균)"
+      },
+      {
+        "type": "3",
+        "content": "쓰으으으으읍(맵고수)"
+      }
+    ],
+    "progress": "/assets/bar/6.svg"
+  },
+  {
+    "id": 7,
+    "question": "술 마시고 싶은 날이야?",
+    "img": "/assets/main/q7.svg",
+    "answers": [
+      {
+        "type": "1",
+        "content": "응 마시고 싶어"
+      },
+      {
+        "type": "2",
+        "content": "아니 오늘은 아니야"
+      }
+    ],
+    "progress": "/assets/bar/7.svg"
+  },
+  {
+    "id": 8,
+    "question": "기름진 거 좋아해?",
+    "img": "/assets/main/q8.svg",
+    "answers": [
+      {
+        "type": "1",
+        "content": "응 좋아해"
+      },
+      {
+        "type": "2",
+        "content": "아니 담백한 걸 더 좋아해"
+      }
+    ],
+    "progress": "/assets/bar/8.svg"
+  },
+  {
+    "id": 9,
+    "question": "다이어트 중이야?",
+    "img": "/assets/main/q9.svg",
+    "answers": [
+      {
+        "type": "1",
+        "content": "그럴리가"
+      },
+      {
+        "type": "2",
+        "content": "요즘 하고 있는 중이야"
+      },
+      {
+        "type": "3",
+        "content": "단백질이 필요해"
+      }
+    ],
+    "progress": "/assets/bar/9.svg"
+  }
+]
