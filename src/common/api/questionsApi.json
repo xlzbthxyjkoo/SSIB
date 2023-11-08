@@ -2,7 +2,7 @@
   {
     "id": 1,
     "question": "오늘 하루는 어땠어?",
-    "img": "/assets/main/q1.svg",
+    "img": "/assets/main/q1.jpg",
     "answers": [
       {
         "type": "1",
@@ -17,12 +17,12 @@
         "content": "힘들었어"
       }
     ],
-    "progress": "/assets/bar/1.svg"
+    "progress": "/assets/bar/1.jpg"
   },
   {
     "id": 2,
     "question": "오늘 날씨는 어때?",
-    "img": "/assets/main/q2.svg",
+    "img": "/assets/main/q2.jpg",
     "answers": [
       {
         "type": "1",
@@ -41,12 +41,12 @@
         "content": "비와"
       }
     ],
-    "progress": "/assets/bar/2.svg"
+    "progress": "/assets/bar/2.jpg"
   },
   {
     "id": 3,
     "question": "밥 먹을 시간은 충분해?",
-    "img": "/assets/main/q3.svg",
+    "img": "/assets/main/q3.jpg",
     "answers": [
       {
         "type": "1",
@@ -61,12 +61,12 @@
         "content": "널널해"
       }
     ],
-    "progress": "/assets/bar/3.svg"
+    "progress": "/assets/bar/3.jpg"
   },
   {
     "id": 4,
     "question": "오늘 얼마정도 flex 가능해?",
-    "img": "/assets/main/q4.svg",
+    "img": "/assets/main/q4.jpg",
     "answers": [
       {
         "type": "1",
@@ -81,12 +81,12 @@
         "content": "3만원 이상"
       }
     ],
-    "progress": "/assets/bar/4.svg"
+    "progress": "/assets/bar/4.jpg"
   },
   {
     "id": 5,
     "question": "국물있는 음식이 땡겨?",
-    "img": "/assets/main/q5.svg",
+    "img": "/assets/main/q5.jpg",
     "answers": [
       {
         "type": "1",
@@ -101,12 +101,12 @@
         "content": "아니 별로"
       }
     ],
-    "progress": "/assets/bar/5.svg"
+    "progress": "/assets/bar/5.jpg"
   },
   {
     "id": 6,
     "question": "매운거 어느정도 참을 수 있어?",
-    "img": "/assets/main/q6.svg",
+    "img": "/assets/main/q6.jpg",
     "answers": [
       {
         "type": "1",
@@ -121,12 +121,12 @@
         "content": "쓰으으으으읍(맵고수)"
       }
     ],
-    "progress": "/assets/bar/6.svg"
+    "progress": "/assets/bar/6.jpg"
   },
   {
     "id": 7,
     "question": "술 마시고 싶은 날이야?",
-    "img": "/assets/main/q7.svg",
+    "img": "/assets/main/q7.jpg",
     "answers": [
       {
         "type": "1",
@@ -137,12 +137,12 @@
         "content": "아니 오늘은 아니야"
       }
     ],
-    "progress": "/assets/bar/7.svg"
+    "progress": "/assets/bar/7.jpg"
   },
   {
     "id": 8,
     "question": "기름진 거 좋아해?",
-    "img": "/assets/main/q8.svg",
+    "img": "/assets/main/q8.jpg",
     "answers": [
       {
         "type": "1",
@@ -153,12 +153,12 @@
         "content": "아니 담백한 걸 더 좋아해"
       }
     ],
-    "progress": "/assets/bar/8.svg"
+    "progress": "/assets/bar/8.jpg"
   },
   {
     "id": 9,
     "question": "다이어트 중이야?",
-    "img": "/assets/main/q9.svg",
+    "img": "/assets/main/q9.jpg",
     "answers": [
       {
         "type": "1",
@@ -173,6 +173,6 @@
         "content": "단백질이 필요해"
       }
     ],
-    "progress": "/assets/bar/9.svg"
+    "progress": "/assets/bar/9.jpg"
   }
 ]

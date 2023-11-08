@@ -1,5 +1,5 @@
 import * as S from "./Main.styled";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import questions from "../../common/api/questionsApi.json"; //json에 입력해놓은 질문,답변 불러오기
 
@@ -8,6 +8,22 @@ function Main() {
   const [num, setNum] = useState(0); // 페이지 번호 (질문)
   const [activeIndex, setActiveIndex] = useState(null); //답변 번호
   const [selectedAnswers, setSelectedAnswers] = useState([]); //사용자가 선택한 답변의 index를 배열로 저장
+
+  // 이미지 프리로딩을 위한 배열
+  const imageUrls = questions.map((question) => question.img);
+
+  // 이미지 프리로딩 함수
+  const preloadImages = (urls) => {
+    urls.forEach((url) => {
+      const img = new Image();
+      img.src = url;
+    });
+  };
+
+  useEffect(() => {
+    // 페이지 로드 시 이미지 프리로딩
+    preloadImages(imageUrls);
+  }, [imageUrls]);
 
   const handleAnswerClick = (index) => {
     if (num < 9) {
@@ -20,6 +36,7 @@ function Main() {
         navigate("/loading");
       }
     }
+
     console.log("Selected Answers:", [...selectedAnswers, index]); //배열이 잘 저장되고 있는지 확인
   };
 
@@ -31,7 +48,10 @@ function Main() {
       <S.Question>
         <p>{questions[num]?.question || ""}</p>
       </S.Question>
-      <S.QImg src={questions[num]?.img || ""}></S.QImg>
+      <S.QImg
+        src={questions[num]?.img || ""}
+        style={S.imageStyles[questions[num]?.id || 1]}
+      ></S.QImg>
       <S.QContainer>
         {questions[num]?.answers.map((answer, index) => (
           <S.Answer
