@@ -51,8 +51,8 @@ export const QImg = styled.img`
 
 export const QContainer = styled.div`
   font-family: "SUIT Variable", sans-serif;
-  font-weight: 800;
-  font-size: 13px;
+  font-weight: 700;
+  font-size: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
