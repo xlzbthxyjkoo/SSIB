@@ -4,55 +4,54 @@
   src: url("../../assets/fonts/SUIT.css") format("truetype");
 }
 
-html{
-  /*전체 영역*/
-  background-color: lightgray;
+/* html { */
+/*전체 영역*/
+/* background-color: lightgray;
   height: 844px;
+} */
 
-}
-
-body {
-  /* 화면 영역  */
-  text-align: center;
+/* body { */
+/* 화면 영역  */
+/* text-align: center;
   width: 1127px;
   height: 2420px;
   background-color: white;
   margin: auto;
   font-family: "SUIT";
-}
+} */
 
 .Loading {
   text-align: center;
 }
 
-.logo-image{
+.logo-image {
   width: 300px;
   height: auto;
   margin-top: 300px;
 }
 
-.center{
+.center {
   height: 700px;
   margin-top: 500px;
 }
 
-.loading-images{
+.loading-images {
   width: 500px;
   height: 600px;
 }
 
-h1{
+h1 {
   font-size: 60px;
   font-weight: bolder;
   color: rgb(107, 0, 107);
 }
 
 /* @media screen and (max-height: 1550px){
-  body{
-    width: 710px;
-    height: auto;
-  }
-  .h1{
-    color: black;
-  }
-} */
+    body{
+      width: 710px;
+      height: auto;
+    }
+    .h1{
+      color: black;
+    }
+  } */
