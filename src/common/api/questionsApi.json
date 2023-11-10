@@ -25,19 +25,19 @@
     "img": "/assets/main/q2.jpg",
     "answers": [
       {
-        "type": "1",
+        "type": "4",
         "content": "더워"
       },
       {
-        "type": "2",
+        "type": "5",
         "content": "선선해"
       },
       {
-        "type": "3",
+        "type": "6",
         "content": "추워"
       },
       {
-        "type": "4",
+        "type": "7",
         "content": "비와"
       }
     ],
@@ -49,15 +49,15 @@
     "img": "/assets/main/q3.jpg",
     "answers": [
       {
-        "type": "1",
+        "type": "8",
         "content": "바빠"
       },
       {
-        "type": "2",
+        "type": "9",
         "content": "그냥 그래"
       },
       {
-        "type": "3",
+        "type": "10",
         "content": "널널해"
       }
     ],
@@ -69,15 +69,15 @@
     "img": "/assets/main/q4.jpg",
     "answers": [
       {
-        "type": "1",
+        "type": "11",
         "content": "1만원 이하"
       },
       {
-        "type": "2",
+        "type": "12",
         "content": "1~2만원 정도"
       },
       {
-        "type": "3",
+        "type": "13",
         "content": "3만원 이상"
       }
     ],
@@ -89,15 +89,15 @@
     "img": "/assets/main/q5.jpg",
     "answers": [
       {
-        "type": "1",
+        "type": "14",
         "content": "응!"
       },
       {
-        "type": "2",
+        "type": "15",
         "content": "그냥 그래"
       },
       {
-        "type": "3",
+        "type": "16",
         "content": "아니 별로"
       }
     ],
@@ -109,15 +109,15 @@
     "img": "/assets/main/q6.jpg",
     "answers": [
       {
-        "type": "1",
+        "type": "17",
         "content": "씁(맵찔이)"
       },
       {
-        "type": "2",
+        "type": "18",
         "content": "쓰으으읍(평균)"
       },
       {
-        "type": "3",
+        "type": "19",
         "content": "쓰으으으으읍(맵고수)"
       }
     ],
@@ -129,11 +129,11 @@
     "img": "/assets/main/q7.jpg",
     "answers": [
       {
-        "type": "1",
+        "type": "20",
         "content": "응 마시고 싶어"
       },
       {
-        "type": "2",
+        "type": "21",
         "content": "아니 오늘은 아니야"
       }
     ],
@@ -145,11 +145,11 @@
     "img": "/assets/main/q8.jpg",
     "answers": [
       {
-        "type": "1",
+        "type": "22",
         "content": "응 좋아해"
       },
       {
-        "type": "2",
+        "type": "23",
         "content": "아니 담백한 걸 더 좋아해"
       }
     ],
@@ -161,15 +161,15 @@
     "img": "/assets/main/q9.jpg",
     "answers": [
       {
-        "type": "1",
+        "type": "24",
         "content": "그럴리가"
       },
       {
-        "type": "2",
+        "type": "25",
         "content": "요즘 하고 있는 중이야"
       },
       {
-        "type": "3",
+        "type": "26",
         "content": "단백질이 필요해"
       }
     ],
