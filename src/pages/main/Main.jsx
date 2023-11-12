@@ -2,6 +2,7 @@ import * as S from "./Main.styled";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import questions from "../../common/api/questionsApi.json"; //json에 입력해놓은 질문,답변 불러오기
+import axios from "axios";
 
 function Main() {
   const navigate = useNavigate();
@@ -33,9 +34,26 @@ function Main() {
         // num이 8이면 로딩 페이지로 이동
         navigate("/loading");
       }
-    }
 
-    console.log(index);
+      // 사용자가 클릭한 답변 서버로 전송
+      sendUserClickToServer(index);
+    }
+  };
+
+  const sendUserClickToServer = async (index) => {
+    try {
+      const url = "";
+
+      const data = {
+        responses: index,
+      };
+
+      const response = await axios.post(url, data);
+
+      console.log("성공", response.data);
+    } catch (error) {
+      console.error("실패", error);
+    }
   };
 
   return (
