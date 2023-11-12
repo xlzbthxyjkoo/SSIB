@@ -1,57 +1,70 @@
-@font-face {
-  font-family: "SUIT";
-  font-weight: normal;
-  src: url("../../assets/fonts/SUIT.css") format("truetype");
+@import url("../../assets/fonts/SUIT.css");
+
+html {
+  /*전체 영역*/
+  background-color: lightgray;
+  height: 844px;
 }
 
-/* html { */
-/*전체 영역*/
-/* background-color: lightgray;
-  height: 844px;
-} */
-
-/* body { */
-/* 화면 영역  */
-/* text-align: center;
+body {
+  /* 화면 영역  */
+  text-align: center;
   width: 1127px;
   height: 2420px;
   background-color: white;
   margin: auto;
   font-family: "SUIT";
-} */
-
-.Loading {
-  text-align: center;
 }
 
-.logo-image {
-  width: 300px;
-  height: auto;
-  margin-top: 300px;
-}
-
-.center {
-  height: 700px;
-  margin-top: 500px;
-}
-
-.loading-images {
+/* .logo-image{
   width: 500px;
   height: 600px;
+  margin-bottom: 40%;
+} */
+
+.loading-images {
+  width: 1000px;
+  height: 700px;
+  object-fit: contain;
+  margin-top: 50%;
+  margin-bottom: 30%;
 }
 
-h1 {
+.cooking {
   font-size: 60px;
   font-weight: bolder;
-  color: rgb(107, 0, 107);
+  color: #4f2789;
 }
 
-/* @media screen and (max-height: 1550px){
-    body{
-      width: 710px;
-      height: auto;
-    }
-    .h1{
-      color: black;
-    }
-  } */
+@media screen and (max-height: 2000px) {
+  body {
+    width: 926px;
+    height: 2000px;
+  }
+  .center {
+    margin-top: 30%;
+    margin-bottom: 18%;
+  }
+}
+
+@media screen and (max-height: 1800px) {
+  body {
+    width: 833.44px;
+    height: 1800px;
+  }
+  .center {
+    margin-top: 26%;
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (max-height: 1600px) {
+  body {
+    width: 740.84px;
+    height: 1600px;
+  }
+  .center {
+    margin-top: 25%;
+    margin-bottom: 10%;
+  }
+}
